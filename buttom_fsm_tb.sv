@@ -1,6 +1,6 @@
 `timescale 1ns/1ps
 
-module button_fsm_tb;
+module buttom_fsm_tb;
     logic       clk;
     logic       rst_n;
     logic [3:0] btn;
