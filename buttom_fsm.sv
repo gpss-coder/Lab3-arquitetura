@@ -1,4 +1,4 @@
-module button_fsm (
+module buttom_fsm (
     input  logic       clk,    // Clock de 50 MHz
     input  logic       rst_n,  // Reset assincrono, ativo baixo (KEY[0])
     input  logic [3:0] btn,    // Botao de avanco, ativo baixo  (KEY[1])
