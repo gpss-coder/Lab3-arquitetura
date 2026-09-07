@@ -61,7 +61,7 @@ always_comb begin
         end
 
         AMARELO_ON: begin
-            if(btn_rise btn_amarelo2)
+            if(btn_rise == btn_amarelo2)
                 next_state = AMARELO2_ON;
             else
                 next_state = INIT;
