@@ -4,14 +4,14 @@ module buttom_fsm_tb;
     logic       clk;
     logic       rst_n;
     logic [3:0] btn;
-    //logic [3:0] leds;
+    logic [3:0] leds;
     logic       unlocked;
 
     button_fsm dut (
         .clk   (clk),
         .rst_n (rst_n),
         .btn   (btn),
-        //.leds  (leds)
+        .leds  (leds),
         .LED_UNLOCK (unlocked)
     );
 
